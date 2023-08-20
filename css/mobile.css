@@ -1,0 +1,45 @@
+@media screen and (max-width: 576px) {
+  * {
+    font-size: small;
+  }
+
+  #nav-bar {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: block;
+  }
+  .a-01 {
+    border: none;
+  }
+  .nav-mobile i {
+    color: rgb(29, 150, 255);
+  }
+
+  .inf-career-laptop {
+    display: none;
+  }
+  .inf-career-tab-mobile {
+    display: block;
+  }
+
+  .text h1,
+  .section-title {
+    font-size: 20px;
+    font-weight: 10;
+  }
+  .row-rol-1 {
+    display: block;
+  }
+  .bor-lef {
+    border-right: none;
+    border-bottom: 1px solid orange;
+  }
+  .project-05 {
+    display: block;
+  }
+  .pad-bot div {
+    padding-bottom: 10px;
+  }
+}

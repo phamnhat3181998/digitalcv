@@ -1,0 +1,311 @@
+.bg-grey {
+  background: #f7f7f7;
+}
+
+.inf-career-tab-mobile {
+  display: none;
+}
+
+#nav-bar {
+  text-align: center;
+  position: relative;
+}
+/* PHAN BANNER */
+#banner {
+  position: relative;
+}
+#banner img {
+  width: 100%;
+  height: auto;
+}
+.text {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+
+/* PHAN NAV-BAR */
+.navbar-container {
+  width: auto;
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15% 15%;
+  justify-content: space-around;
+  height: auto;
+}
+.navbar-container i {
+  color: rgb(29, 150, 255);
+}
+.a-00 {
+  padding: 10px 0;
+}
+.a-00 {
+  display: inline-block;
+  text-align: center;
+  border-left: 2px solid rgba(43, 32, 32, 0.145);
+  border-right: 2px solid rgba(43, 32, 32, 0.145);
+}
+
+a {
+  color: #080808;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+a:hover {
+  color: rgb(255, 3, 3);
+}
+a:active {
+  background-color: #dbb252;
+  color: white;
+}
+
+/* THONG TIN CA NHAN*/
+
+.section-title {
+  padding: 40px 0 10px 0;
+  font-size: 24px;
+}
+#target {
+  background-color: rgba(226, 216, 216, 0.204);
+  padding: 0 20px;
+}
+#personal-info {
+  background-color: rgba(189, 186, 186, 0.204);
+  padding: 0 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+.icon {
+  padding: 10px 0;
+  color: rgb(0, 179, 255);
+}
+
+/* AN THONG TIN USER  */
+
+#personal-info .mt-40 {
+  display: none;
+}
+
+#error-email {
+  color: #ff0000;
+  font-weight: 700;
+}
+
+.view-more {
+  display: none;
+}
+.parent:hover button.view-more {
+  display: block;
+}
+/* PHAN THONG TIN NGHE NGHIEP */
+#job-info .container-01 {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  gap: 20px;
+}
+#job-info-01 {
+  border: 2px solid rgba(43, 32, 32, 0.145);
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 60px auto;
+}
+.size-up {
+  font-size: 30px;
+}
+#job-info h1 {
+  padding-top: 10px;
+  font-size: 24px;
+}
+#job-info-01 {
+  padding-left: 10px;
+}
+#job-info-01 {
+  padding-top: 20px;
+}
+.job-info-02 {
+  grid-column: 1/3;
+}
+
+#job-info-01 i {
+  text-align: center;
+}
+
+/* AN THONG TIN PHAN NGHE NGHIEP */
+
+#job-info-01 .jsCript {
+  display: none;
+}
+
+/*  */
+.job-child {
+  color: #f7f7f7;
+  background-color: rgb(95, 156, 242);
+  border-radius: 10%;
+  margin-left: 5px;
+  padding: 5px 10px;
+}
+/* PHAN SO THICH */
+
+.bor-ra {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding-left: 10px;
+  border: 2px solid rgb(0, 179, 255);
+  color: rgb(0, 179, 255);
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.favorite {
+  display: flex;
+}
+
+.favo-01 {
+  text-align: center;
+}
+/* PHAN NGON NGU, KY NANG */
+.col-blu {
+  background: rgba(0, 0, 255, 0.744);
+  display: inline-block;
+  height: 3px;
+  border-radius: 10px;
+  margin-right: 10px;
+  width: 45px;
+}
+.col-gre {
+  background: rgba(128, 128, 128, 0.35);
+  display: inline-block;
+  height: 3px;
+  border-radius: 10px;
+  margin-right: 10px;
+  width: 45px;
+}
+.row-01 {
+  padding-bottom: 20px;
+}
+/* CHUNG CHI GIAI THUONG */
+.row-rol-1 {
+  width: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 15px;
+}
+#certificate img {
+  width: 90%;
+  height: 200px;
+  object-fit: cover;
+}
+.row-rol-2 {
+  display: grid;
+  grid-template-columns: auto 350px;
+}
+.bor-lef {
+  border-right: 1px solid orange;
+}
+.bor-bot {
+  border-bottom: 1px solid orange;
+  padding: 15px 0 40px 0;
+}
+.pad-top-bot {
+  padding: 40px 0;
+}
+.let-01 p {
+  padding-bottom: 10px;
+}
+.let-01 li {
+  padding: 5px 0;
+}
+/* DU AN */
+.project-01 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+}
+.project-01 img {
+  width: 100%;
+  height: 260px;
+}
+.project-01 div,
+.project-01 table {
+  border: 1px solid rgba(47, 44, 44, 0.069);
+}
+.project-02 {
+  background-color: rgba(34, 7, 96, 0.261);
+}
+.project-02 p {
+  padding: 10px 0 10px 15px;
+}
+.project-03 {
+  background-color: #ffcd5ab8;
+  padding: 10px 0;
+}
+.project-03 span:first-child,
+.project-03 i {
+  margin-left: 15px;
+}
+.project-03 span {
+  color: #ffcd5ab8;
+  background-color: rgba(7, 144, 60, 0.627);
+  border-radius: 25px;
+  padding: 5px 10px;
+}
+.project-03 span:nth-child(2),
+.project-03 span:nth-child(3),
+.project-03 i {
+  color: rgb(124, 82, 5);
+}
+.project-03 span:nth-child(2),
+.project-03 span:nth-child(3) {
+  padding-left: 5px;
+}
+table {
+  height: 300px;
+  border-collapse: collapse;
+  background-color: rgba(108, 76, 25, 0.416);
+}
+table td {
+  border-bottom: 1px solid rgba(47, 44, 44, 0.069);
+}
+.table-laptop td:first-child {
+  width: 100px;
+}
+/* XAY DUNG PHAN FOOTER */
+.footer-01 {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+}
+.footer-01 i {
+  padding-right: 10px;
+  font-size: 40px;
+  color: rgb(73, 152, 242);
+}
+/* NANG CAO */
+.a-01 img {
+  width: 10%;
+  height: 150px;
+  border-radius: 50%;
+  border: 10px solid white;
+  position: absolute;
+  top: -60px;
+  left: 45%;
+}
+/* FONT */
+.text h1 {
+  font-size: 50px;
+  font-weight: 100;
+}
+/* @media (max-width: 768px) {
+} */
+.nav-mobile {
+  display: none;
+}
